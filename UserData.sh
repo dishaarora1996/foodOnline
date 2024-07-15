@@ -24,6 +24,7 @@ chmod +x scripts/*.sh
 # Execute scripts for OS dependencies, Python dependencies, Gunicorn, Nginx, and starting the application
 ./scripts/instance_os_dependencies.sh
 ./scripts/python_dependencies.sh
+./scripts/install_database.sh
 ./scripts/gunicorn.sh
 ./scripts/nginx.sh
 ./scripts/start_app.sh
