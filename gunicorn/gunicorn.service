@@ -8,7 +8,7 @@ User=ubuntu
 Group=www-data
 EnvironmentFile=/home/ubuntu/project/foodOnline/.env
 WorkingDirectory=/home/ubuntu/project/foodOnline
-ExecStart=/home/ubuntu/project/env/bin/gunicorn \
+ExecStart=/home/ubuntu/project/venv/bin/gunicorn \
           --access-logfile - \
           --workers 3 \
           --bind unix:/run/gunicorn.sock \
