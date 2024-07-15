@@ -1,0 +1,4 @@
+Manually install whitenoise
+Manually install gunicorn
+Add in requirements.txt
+Manually create a .env file in server
