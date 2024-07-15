@@ -22,9 +22,9 @@ source "/home/ubuntu/project/venv/bin/activate"
 # Change directory to the project main directory
 cd "/home/ubuntu/project/$PROJECT_MAIN_DIR_NAME"
 
-# Run collectstatic command
-echo "Running collectstatic command..."
-python manage.py collectstatic --noinput
+# # Run collectstatic command
+# echo "Running collectstatic command..."
+# python manage.py collectstatic --noinput
 
 # Restart Gunicorn and Nginx services
 echo "Restarting Gunicorn and Nginx services..."
