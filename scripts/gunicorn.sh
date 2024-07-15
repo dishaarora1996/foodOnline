@@ -4,8 +4,8 @@
 PROJECT_MAIN_DIR_NAME="foodOnline"
 
 # Copy gunicorn socket and service files
-sudo cp "/home/ubuntu/$PROJECT_MAIN_DIR_NAME/gunicorn/gunicorn.socket" "/etc/systemd/system/gunicorn.socket"
-sudo cp "/home/ubuntu/$PROJECT_MAIN_DIR_NAME/gunicorn/gunicorn.service" "/etc/systemd/system/gunicorn.service"
+sudo cp "/home/ubuntu/project/$PROJECT_MAIN_DIR_NAME/gunicorn/gunicorn.socket" "/etc/systemd/system/gunicorn.socket"
+sudo cp "/home/ubuntu/project/$PROJECT_MAIN_DIR_NAME/gunicorn/gunicorn.service" "/etc/systemd/system/gunicorn.service"
 
 # Start and enable Gunicorn service
 sudo systemctl start gunicorn.service
